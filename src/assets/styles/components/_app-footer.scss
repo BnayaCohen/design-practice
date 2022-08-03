@@ -1,0 +1,57 @@
+.app-footer {
+  padding: 28px;
+  background-color: $clr3;
+
+  .logo {
+    width: 170px;
+    margin-bottom: 40px;
+  }
+
+  .location-details {
+    margin-bottom: 15px;
+
+    img {
+      width: 13px;
+      height: 18px;
+      margin-right: 28px;
+    }
+
+    p {
+      margin: 0;
+      margin-right: 15px;
+      width: em(300px);
+    }
+  }
+
+  .contact-details {
+    margin-bottom: 10px;
+    
+    img {
+      width: 15px;
+      height: 15px;
+      margin-right: 28px;
+      display: inline;
+    }
+    
+    p {
+      margin: 0;
+      margin-bottom: 10px;
+      width: em(300px);
+      cursor: pointer;
+    }
+  }
+
+  .links-container {
+    margin: 0 auto;
+    div{
+      width: 28px;
+      height: 28px;
+      border: 1px solid #dfe4f0;
+      margin: 5px;
+      padding: 6px 8px;
+      cursor: pointer;
+      border-radius: 50%;
+      color: $clr6;
+    }
+  }
+}

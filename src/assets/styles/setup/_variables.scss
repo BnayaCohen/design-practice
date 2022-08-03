@@ -1,0 +1,18 @@
+
+// COLOR PALETTE
+$clr1: hsl(217, 28%, 15%);
+$clr2: hsl(218, 28%, 13%);
+$clr3: hsl(216, 53%, 9%);
+$clr4: hsl(219, 30%, 18%);
+$clr5: #000;
+$clr6: #fff;
+
+// LAYOUT
+$layoutPadding: 20px;
+
+// LAYOUT BREAKPOINTS
+$break-mobile: 375px;
+$break-wide: 1440px;
+
+$padded-break-mobile: $break-mobile + $layoutPadding * 2;
+$padded-break-wide: $break-wide + $layoutPadding * 2;

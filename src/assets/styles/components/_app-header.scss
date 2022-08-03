@@ -1,0 +1,21 @@
+.app-header {
+  padding: 40px 0;
+
+  .logo {
+    min-width: 85px;
+    max-width: 130px;
+  }
+
+  nav {
+    ul {
+      justify-content: space-around;
+      min-width: 270px;
+      // max-width: 270px;
+
+      li {
+        // font-size: em(12px);
+        cursor: pointer;
+      }
+    }
+  }
+}

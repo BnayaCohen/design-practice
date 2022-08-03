@@ -1,0 +1,31 @@
+.features-container {
+  margin: 0 auto;
+  max-width: 720px;
+
+  .feature-preview {
+    max-width: 320px;
+    height: 320px;
+    padding: 20px;
+
+    div {
+      height: 50px;
+      margin: 30px auto;
+
+      img {
+        align-self: center;
+        max-width: 60px;
+      }
+    }
+
+    h4 {
+      text-align: center;
+      margin: 20px 0;
+      font-size: rem(20px);
+    }
+
+    p {
+      text-align: center;
+      font-family: "Raleway";
+    }
+  }
+}
